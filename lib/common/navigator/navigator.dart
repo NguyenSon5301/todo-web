@@ -1,13 +1,15 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:rxdart/rxdart.dart';
 
+import '../../features/forgot_password/presentation/page/forgot_password_page.dart';
+import '../../features/login/presentation/page/login_page.dart';
+import '../../features/main_tab_navigation/presentation/page/main_tab_navigation_page.dart';
+import '../../features/sign_up/presentation/page/sign_up_page.dart';
 import '../../features/splash/presentation/page/splash_page.dart';
+import '../../features/todo/presentation/page/todo_page.dart';
 
 part 'navigation_type.dart';
 part 'navigator.freezed.dart';

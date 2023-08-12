@@ -20,27 +20,18 @@ mixin _$NavigationType {
   TResult when<TResult extends Object?>({
     required TResult Function() root,
     required TResult Function() home,
-    required TResult Function() profile,
-    required TResult Function() search,
-    required TResult Function() message,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? root,
     TResult? Function()? home,
-    TResult? Function()? profile,
-    TResult? Function()? search,
-    TResult? Function()? message,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? root,
     TResult Function()? home,
-    TResult Function()? profile,
-    TResult Function()? search,
-    TResult Function()? message,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -48,27 +39,18 @@ mixin _$NavigationType {
   TResult map<TResult extends Object?>({
     required TResult Function(NavigationTypeRoot value) root,
     required TResult Function(NavigationTypeHome value) home,
-    required TResult Function(NavigationTypeProfile value) profile,
-    required TResult Function(NavigationTypeSearch value) search,
-    required TResult Function(NavigationTypeMessage value) message,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(NavigationTypeRoot value)? root,
     TResult? Function(NavigationTypeHome value)? home,
-    TResult? Function(NavigationTypeProfile value)? profile,
-    TResult? Function(NavigationTypeSearch value)? search,
-    TResult? Function(NavigationTypeMessage value)? message,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(NavigationTypeRoot value)? root,
     TResult Function(NavigationTypeHome value)? home,
-    TResult Function(NavigationTypeProfile value)? profile,
-    TResult Function(NavigationTypeSearch value)? search,
-    TResult Function(NavigationTypeMessage value)? message,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -132,9 +114,6 @@ class _$NavigationTypeRoot implements NavigationTypeRoot {
   TResult when<TResult extends Object?>({
     required TResult Function() root,
     required TResult Function() home,
-    required TResult Function() profile,
-    required TResult Function() search,
-    required TResult Function() message,
   }) {
     return root();
   }
@@ -144,9 +123,6 @@ class _$NavigationTypeRoot implements NavigationTypeRoot {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? root,
     TResult? Function()? home,
-    TResult? Function()? profile,
-    TResult? Function()? search,
-    TResult? Function()? message,
   }) {
     return root?.call();
   }
@@ -156,9 +132,6 @@ class _$NavigationTypeRoot implements NavigationTypeRoot {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? root,
     TResult Function()? home,
-    TResult Function()? profile,
-    TResult Function()? search,
-    TResult Function()? message,
     required TResult orElse(),
   }) {
     if (root != null) {
@@ -172,9 +145,6 @@ class _$NavigationTypeRoot implements NavigationTypeRoot {
   TResult map<TResult extends Object?>({
     required TResult Function(NavigationTypeRoot value) root,
     required TResult Function(NavigationTypeHome value) home,
-    required TResult Function(NavigationTypeProfile value) profile,
-    required TResult Function(NavigationTypeSearch value) search,
-    required TResult Function(NavigationTypeMessage value) message,
   }) {
     return root(this);
   }
@@ -184,9 +154,6 @@ class _$NavigationTypeRoot implements NavigationTypeRoot {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(NavigationTypeRoot value)? root,
     TResult? Function(NavigationTypeHome value)? home,
-    TResult? Function(NavigationTypeProfile value)? profile,
-    TResult? Function(NavigationTypeSearch value)? search,
-    TResult? Function(NavigationTypeMessage value)? message,
   }) {
     return root?.call(this);
   }
@@ -196,9 +163,6 @@ class _$NavigationTypeRoot implements NavigationTypeRoot {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(NavigationTypeRoot value)? root,
     TResult Function(NavigationTypeHome value)? home,
-    TResult Function(NavigationTypeProfile value)? profile,
-    TResult Function(NavigationTypeSearch value)? search,
-    TResult Function(NavigationTypeMessage value)? message,
     required TResult orElse(),
   }) {
     if (root != null) {
@@ -252,9 +216,6 @@ class _$NavigationTypeHome implements NavigationTypeHome {
   TResult when<TResult extends Object?>({
     required TResult Function() root,
     required TResult Function() home,
-    required TResult Function() profile,
-    required TResult Function() search,
-    required TResult Function() message,
   }) {
     return home();
   }
@@ -264,9 +225,6 @@ class _$NavigationTypeHome implements NavigationTypeHome {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? root,
     TResult? Function()? home,
-    TResult? Function()? profile,
-    TResult? Function()? search,
-    TResult? Function()? message,
   }) {
     return home?.call();
   }
@@ -276,9 +234,6 @@ class _$NavigationTypeHome implements NavigationTypeHome {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? root,
     TResult Function()? home,
-    TResult Function()? profile,
-    TResult Function()? search,
-    TResult Function()? message,
     required TResult orElse(),
   }) {
     if (home != null) {
@@ -292,9 +247,6 @@ class _$NavigationTypeHome implements NavigationTypeHome {
   TResult map<TResult extends Object?>({
     required TResult Function(NavigationTypeRoot value) root,
     required TResult Function(NavigationTypeHome value) home,
-    required TResult Function(NavigationTypeProfile value) profile,
-    required TResult Function(NavigationTypeSearch value) search,
-    required TResult Function(NavigationTypeMessage value) message,
   }) {
     return home(this);
   }
@@ -304,9 +256,6 @@ class _$NavigationTypeHome implements NavigationTypeHome {
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(NavigationTypeRoot value)? root,
     TResult? Function(NavigationTypeHome value)? home,
-    TResult? Function(NavigationTypeProfile value)? profile,
-    TResult? Function(NavigationTypeSearch value)? search,
-    TResult? Function(NavigationTypeMessage value)? message,
   }) {
     return home?.call(this);
   }
@@ -316,9 +265,6 @@ class _$NavigationTypeHome implements NavigationTypeHome {
   TResult maybeMap<TResult extends Object?>({
     TResult Function(NavigationTypeRoot value)? root,
     TResult Function(NavigationTypeHome value)? home,
-    TResult Function(NavigationTypeProfile value)? profile,
-    TResult Function(NavigationTypeSearch value)? search,
-    TResult Function(NavigationTypeMessage value)? message,
     required TResult orElse(),
   }) {
     if (home != null) {
@@ -333,396 +279,67 @@ abstract class NavigationTypeHome implements NavigationType {
 }
 
 /// @nodoc
-abstract class _$$NavigationTypeProfileCopyWith<$Res> {
-  factory _$$NavigationTypeProfileCopyWith(_$NavigationTypeProfile value,
-          $Res Function(_$NavigationTypeProfile) then) =
-      __$$NavigationTypeProfileCopyWithImpl<$Res>;
-}
-
-/// @nodoc
-class __$$NavigationTypeProfileCopyWithImpl<$Res>
-    extends _$NavigationTypeCopyWithImpl<$Res, _$NavigationTypeProfile>
-    implements _$$NavigationTypeProfileCopyWith<$Res> {
-  __$$NavigationTypeProfileCopyWithImpl(_$NavigationTypeProfile _value,
-      $Res Function(_$NavigationTypeProfile) _then)
-      : super(_value, _then);
-}
-
-/// @nodoc
-
-class _$NavigationTypeProfile implements NavigationTypeProfile {
-  const _$NavigationTypeProfile();
-
-  @override
-  String toString() {
-    return 'NavigationType.profile()';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$NavigationTypeProfile);
-  }
-
-  @override
-  int get hashCode => runtimeType.hashCode;
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() root,
-    required TResult Function() home,
-    required TResult Function() profile,
-    required TResult Function() search,
-    required TResult Function() message,
-  }) {
-    return profile();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? root,
-    TResult? Function()? home,
-    TResult? Function()? profile,
-    TResult? Function()? search,
-    TResult? Function()? message,
-  }) {
-    return profile?.call();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? root,
-    TResult Function()? home,
-    TResult Function()? profile,
-    TResult Function()? search,
-    TResult Function()? message,
-    required TResult orElse(),
-  }) {
-    if (profile != null) {
-      return profile();
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(NavigationTypeRoot value) root,
-    required TResult Function(NavigationTypeHome value) home,
-    required TResult Function(NavigationTypeProfile value) profile,
-    required TResult Function(NavigationTypeSearch value) search,
-    required TResult Function(NavigationTypeMessage value) message,
-  }) {
-    return profile(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(NavigationTypeRoot value)? root,
-    TResult? Function(NavigationTypeHome value)? home,
-    TResult? Function(NavigationTypeProfile value)? profile,
-    TResult? Function(NavigationTypeSearch value)? search,
-    TResult? Function(NavigationTypeMessage value)? message,
-  }) {
-    return profile?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(NavigationTypeRoot value)? root,
-    TResult Function(NavigationTypeHome value)? home,
-    TResult Function(NavigationTypeProfile value)? profile,
-    TResult Function(NavigationTypeSearch value)? search,
-    TResult Function(NavigationTypeMessage value)? message,
-    required TResult orElse(),
-  }) {
-    if (profile != null) {
-      return profile(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class NavigationTypeProfile implements NavigationType {
-  const factory NavigationTypeProfile() = _$NavigationTypeProfile;
-}
-
-/// @nodoc
-abstract class _$$NavigationTypeSearchCopyWith<$Res> {
-  factory _$$NavigationTypeSearchCopyWith(_$NavigationTypeSearch value,
-          $Res Function(_$NavigationTypeSearch) then) =
-      __$$NavigationTypeSearchCopyWithImpl<$Res>;
-}
-
-/// @nodoc
-class __$$NavigationTypeSearchCopyWithImpl<$Res>
-    extends _$NavigationTypeCopyWithImpl<$Res, _$NavigationTypeSearch>
-    implements _$$NavigationTypeSearchCopyWith<$Res> {
-  __$$NavigationTypeSearchCopyWithImpl(_$NavigationTypeSearch _value,
-      $Res Function(_$NavigationTypeSearch) _then)
-      : super(_value, _then);
-}
-
-/// @nodoc
-
-class _$NavigationTypeSearch implements NavigationTypeSearch {
-  const _$NavigationTypeSearch();
-
-  @override
-  String toString() {
-    return 'NavigationType.search()';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$NavigationTypeSearch);
-  }
-
-  @override
-  int get hashCode => runtimeType.hashCode;
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() root,
-    required TResult Function() home,
-    required TResult Function() profile,
-    required TResult Function() search,
-    required TResult Function() message,
-  }) {
-    return search();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? root,
-    TResult? Function()? home,
-    TResult? Function()? profile,
-    TResult? Function()? search,
-    TResult? Function()? message,
-  }) {
-    return search?.call();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? root,
-    TResult Function()? home,
-    TResult Function()? profile,
-    TResult Function()? search,
-    TResult Function()? message,
-    required TResult orElse(),
-  }) {
-    if (search != null) {
-      return search();
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(NavigationTypeRoot value) root,
-    required TResult Function(NavigationTypeHome value) home,
-    required TResult Function(NavigationTypeProfile value) profile,
-    required TResult Function(NavigationTypeSearch value) search,
-    required TResult Function(NavigationTypeMessage value) message,
-  }) {
-    return search(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(NavigationTypeRoot value)? root,
-    TResult? Function(NavigationTypeHome value)? home,
-    TResult? Function(NavigationTypeProfile value)? profile,
-    TResult? Function(NavigationTypeSearch value)? search,
-    TResult? Function(NavigationTypeMessage value)? message,
-  }) {
-    return search?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(NavigationTypeRoot value)? root,
-    TResult Function(NavigationTypeHome value)? home,
-    TResult Function(NavigationTypeProfile value)? profile,
-    TResult Function(NavigationTypeSearch value)? search,
-    TResult Function(NavigationTypeMessage value)? message,
-    required TResult orElse(),
-  }) {
-    if (search != null) {
-      return search(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class NavigationTypeSearch implements NavigationType {
-  const factory NavigationTypeSearch() = _$NavigationTypeSearch;
-}
-
-/// @nodoc
-abstract class _$$NavigationTypeMessageCopyWith<$Res> {
-  factory _$$NavigationTypeMessageCopyWith(_$NavigationTypeMessage value,
-          $Res Function(_$NavigationTypeMessage) then) =
-      __$$NavigationTypeMessageCopyWithImpl<$Res>;
-}
-
-/// @nodoc
-class __$$NavigationTypeMessageCopyWithImpl<$Res>
-    extends _$NavigationTypeCopyWithImpl<$Res, _$NavigationTypeMessage>
-    implements _$$NavigationTypeMessageCopyWith<$Res> {
-  __$$NavigationTypeMessageCopyWithImpl(_$NavigationTypeMessage _value,
-      $Res Function(_$NavigationTypeMessage) _then)
-      : super(_value, _then);
-}
-
-/// @nodoc
-
-class _$NavigationTypeMessage implements NavigationTypeMessage {
-  const _$NavigationTypeMessage();
-
-  @override
-  String toString() {
-    return 'NavigationType.message()';
-  }
-
-  @override
-  bool operator ==(dynamic other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$NavigationTypeMessage);
-  }
-
-  @override
-  int get hashCode => runtimeType.hashCode;
-
-  @override
-  @optionalTypeArgs
-  TResult when<TResult extends Object?>({
-    required TResult Function() root,
-    required TResult Function() home,
-    required TResult Function() profile,
-    required TResult Function() search,
-    required TResult Function() message,
-  }) {
-    return message();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function()? root,
-    TResult? Function()? home,
-    TResult? Function()? profile,
-    TResult? Function()? search,
-    TResult? Function()? message,
-  }) {
-    return message?.call();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object?>({
-    TResult Function()? root,
-    TResult Function()? home,
-    TResult Function()? profile,
-    TResult Function()? search,
-    TResult Function()? message,
-    required TResult orElse(),
-  }) {
-    if (message != null) {
-      return message();
-    }
-    return orElse();
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult map<TResult extends Object?>({
-    required TResult Function(NavigationTypeRoot value) root,
-    required TResult Function(NavigationTypeHome value) home,
-    required TResult Function(NavigationTypeProfile value) profile,
-    required TResult Function(NavigationTypeSearch value) search,
-    required TResult Function(NavigationTypeMessage value) message,
-  }) {
-    return message(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult? mapOrNull<TResult extends Object?>({
-    TResult? Function(NavigationTypeRoot value)? root,
-    TResult? Function(NavigationTypeHome value)? home,
-    TResult? Function(NavigationTypeProfile value)? profile,
-    TResult? Function(NavigationTypeSearch value)? search,
-    TResult? Function(NavigationTypeMessage value)? message,
-  }) {
-    return message?.call(this);
-  }
-
-  @override
-  @optionalTypeArgs
-  TResult maybeMap<TResult extends Object?>({
-    TResult Function(NavigationTypeRoot value)? root,
-    TResult Function(NavigationTypeHome value)? home,
-    TResult Function(NavigationTypeProfile value)? profile,
-    TResult Function(NavigationTypeSearch value)? search,
-    TResult Function(NavigationTypeMessage value)? message,
-    required TResult orElse(),
-  }) {
-    if (message != null) {
-      return message(this);
-    }
-    return orElse();
-  }
-}
-
-abstract class NavigationTypeMessage implements NavigationType {
-  const factory NavigationTypeMessage() = _$NavigationTypeMessage;
-}
-
-/// @nodoc
 mixin _$ScreenType {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -785,6 +402,11 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
   }) {
     return splash();
   }
@@ -793,6 +415,11 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
   }) {
     return splash?.call();
   }
@@ -801,6 +428,11 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
     required TResult orElse(),
   }) {
     if (splash != null) {
@@ -813,6 +445,12 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
   @optionalTypeArgs
   TResult map<TResult extends Object?>({
     required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
   }) {
     return splash(this);
   }
@@ -821,6 +459,11 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
     TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
   }) {
     return splash?.call(this);
   }
@@ -829,6 +472,11 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object?>({
     TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
     required TResult orElse(),
   }) {
     if (splash != null) {
@@ -840,4 +488,643 @@ class _$ScreenTypeSplash implements ScreenTypeSplash {
 
 abstract class ScreenTypeSplash implements ScreenType {
   const factory ScreenTypeSplash() = _$ScreenTypeSplash;
+}
+
+/// @nodoc
+abstract class _$$ScreenTypeLoginCopyWith<$Res> {
+  factory _$$ScreenTypeLoginCopyWith(
+          _$ScreenTypeLogin value, $Res Function(_$ScreenTypeLogin) then) =
+      __$$ScreenTypeLoginCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$ScreenTypeLoginCopyWithImpl<$Res>
+    extends _$ScreenTypeCopyWithImpl<$Res, _$ScreenTypeLogin>
+    implements _$$ScreenTypeLoginCopyWith<$Res> {
+  __$$ScreenTypeLoginCopyWithImpl(
+      _$ScreenTypeLogin _value, $Res Function(_$ScreenTypeLogin) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$ScreenTypeLogin implements ScreenTypeLogin {
+  const _$ScreenTypeLogin();
+
+  @override
+  String toString() {
+    return 'ScreenType.login()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$ScreenTypeLogin);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
+  }) {
+    return login();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
+  }) {
+    return login?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
+    required TResult orElse(),
+  }) {
+    if (login != null) {
+      return login();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
+  }) {
+    return login(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
+  }) {
+    return login?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
+    required TResult orElse(),
+  }) {
+    if (login != null) {
+      return login(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class ScreenTypeLogin implements ScreenType {
+  const factory ScreenTypeLogin() = _$ScreenTypeLogin;
+}
+
+/// @nodoc
+abstract class _$$ScreenTypeMainTabNavigationCopyWith<$Res> {
+  factory _$$ScreenTypeMainTabNavigationCopyWith(
+          _$ScreenTypeMainTabNavigation value,
+          $Res Function(_$ScreenTypeMainTabNavigation) then) =
+      __$$ScreenTypeMainTabNavigationCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$ScreenTypeMainTabNavigationCopyWithImpl<$Res>
+    extends _$ScreenTypeCopyWithImpl<$Res, _$ScreenTypeMainTabNavigation>
+    implements _$$ScreenTypeMainTabNavigationCopyWith<$Res> {
+  __$$ScreenTypeMainTabNavigationCopyWithImpl(
+      _$ScreenTypeMainTabNavigation _value,
+      $Res Function(_$ScreenTypeMainTabNavigation) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$ScreenTypeMainTabNavigation implements ScreenTypeMainTabNavigation {
+  const _$ScreenTypeMainTabNavigation();
+
+  @override
+  String toString() {
+    return 'ScreenType.mainTabNavigation()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$ScreenTypeMainTabNavigation);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
+  }) {
+    return mainTabNavigation();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
+  }) {
+    return mainTabNavigation?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
+    required TResult orElse(),
+  }) {
+    if (mainTabNavigation != null) {
+      return mainTabNavigation();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
+  }) {
+    return mainTabNavigation(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
+  }) {
+    return mainTabNavigation?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
+    required TResult orElse(),
+  }) {
+    if (mainTabNavigation != null) {
+      return mainTabNavigation(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class ScreenTypeMainTabNavigation implements ScreenType {
+  const factory ScreenTypeMainTabNavigation() = _$ScreenTypeMainTabNavigation;
+}
+
+/// @nodoc
+abstract class _$$ScreenTypeTodoCopyWith<$Res> {
+  factory _$$ScreenTypeTodoCopyWith(
+          _$ScreenTypeTodo value, $Res Function(_$ScreenTypeTodo) then) =
+      __$$ScreenTypeTodoCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$ScreenTypeTodoCopyWithImpl<$Res>
+    extends _$ScreenTypeCopyWithImpl<$Res, _$ScreenTypeTodo>
+    implements _$$ScreenTypeTodoCopyWith<$Res> {
+  __$$ScreenTypeTodoCopyWithImpl(
+      _$ScreenTypeTodo _value, $Res Function(_$ScreenTypeTodo) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$ScreenTypeTodo implements ScreenTypeTodo {
+  const _$ScreenTypeTodo();
+
+  @override
+  String toString() {
+    return 'ScreenType.todo()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$ScreenTypeTodo);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
+  }) {
+    return todo();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
+  }) {
+    return todo?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
+    required TResult orElse(),
+  }) {
+    if (todo != null) {
+      return todo();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
+  }) {
+    return todo(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
+  }) {
+    return todo?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
+    required TResult orElse(),
+  }) {
+    if (todo != null) {
+      return todo(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class ScreenTypeTodo implements ScreenType {
+  const factory ScreenTypeTodo() = _$ScreenTypeTodo;
+}
+
+/// @nodoc
+abstract class _$$ScreenTypeForgotPasswordCopyWith<$Res> {
+  factory _$$ScreenTypeForgotPasswordCopyWith(_$ScreenTypeForgotPassword value,
+          $Res Function(_$ScreenTypeForgotPassword) then) =
+      __$$ScreenTypeForgotPasswordCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$ScreenTypeForgotPasswordCopyWithImpl<$Res>
+    extends _$ScreenTypeCopyWithImpl<$Res, _$ScreenTypeForgotPassword>
+    implements _$$ScreenTypeForgotPasswordCopyWith<$Res> {
+  __$$ScreenTypeForgotPasswordCopyWithImpl(_$ScreenTypeForgotPassword _value,
+      $Res Function(_$ScreenTypeForgotPassword) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$ScreenTypeForgotPassword implements ScreenTypeForgotPassword {
+  const _$ScreenTypeForgotPassword();
+
+  @override
+  String toString() {
+    return 'ScreenType.forgotPassword()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$ScreenTypeForgotPassword);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
+  }) {
+    return forgotPassword();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
+  }) {
+    return forgotPassword?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
+    required TResult orElse(),
+  }) {
+    if (forgotPassword != null) {
+      return forgotPassword();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
+  }) {
+    return forgotPassword(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
+  }) {
+    return forgotPassword?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
+    required TResult orElse(),
+  }) {
+    if (forgotPassword != null) {
+      return forgotPassword(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class ScreenTypeForgotPassword implements ScreenType {
+  const factory ScreenTypeForgotPassword() = _$ScreenTypeForgotPassword;
+}
+
+/// @nodoc
+abstract class _$$ScreenTypeSignUpCopyWith<$Res> {
+  factory _$$ScreenTypeSignUpCopyWith(
+          _$ScreenTypeSignUp value, $Res Function(_$ScreenTypeSignUp) then) =
+      __$$ScreenTypeSignUpCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$ScreenTypeSignUpCopyWithImpl<$Res>
+    extends _$ScreenTypeCopyWithImpl<$Res, _$ScreenTypeSignUp>
+    implements _$$ScreenTypeSignUpCopyWith<$Res> {
+  __$$ScreenTypeSignUpCopyWithImpl(
+      _$ScreenTypeSignUp _value, $Res Function(_$ScreenTypeSignUp) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$ScreenTypeSignUp implements ScreenTypeSignUp {
+  const _$ScreenTypeSignUp();
+
+  @override
+  String toString() {
+    return 'ScreenType.signUp()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$ScreenTypeSignUp);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() splash,
+    required TResult Function() login,
+    required TResult Function() mainTabNavigation,
+    required TResult Function() todo,
+    required TResult Function() forgotPassword,
+    required TResult Function() signUp,
+  }) {
+    return signUp();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? splash,
+    TResult? Function()? login,
+    TResult? Function()? mainTabNavigation,
+    TResult? Function()? todo,
+    TResult? Function()? forgotPassword,
+    TResult? Function()? signUp,
+  }) {
+    return signUp?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? splash,
+    TResult Function()? login,
+    TResult Function()? mainTabNavigation,
+    TResult Function()? todo,
+    TResult Function()? forgotPassword,
+    TResult Function()? signUp,
+    required TResult orElse(),
+  }) {
+    if (signUp != null) {
+      return signUp();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(ScreenTypeSplash value) splash,
+    required TResult Function(ScreenTypeLogin value) login,
+    required TResult Function(ScreenTypeMainTabNavigation value)
+        mainTabNavigation,
+    required TResult Function(ScreenTypeTodo value) todo,
+    required TResult Function(ScreenTypeForgotPassword value) forgotPassword,
+    required TResult Function(ScreenTypeSignUp value) signUp,
+  }) {
+    return signUp(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(ScreenTypeSplash value)? splash,
+    TResult? Function(ScreenTypeLogin value)? login,
+    TResult? Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult? Function(ScreenTypeTodo value)? todo,
+    TResult? Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult? Function(ScreenTypeSignUp value)? signUp,
+  }) {
+    return signUp?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(ScreenTypeSplash value)? splash,
+    TResult Function(ScreenTypeLogin value)? login,
+    TResult Function(ScreenTypeMainTabNavigation value)? mainTabNavigation,
+    TResult Function(ScreenTypeTodo value)? todo,
+    TResult Function(ScreenTypeForgotPassword value)? forgotPassword,
+    TResult Function(ScreenTypeSignUp value)? signUp,
+    required TResult orElse(),
+  }) {
+    if (signUp != null) {
+      return signUp(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class ScreenTypeSignUp implements ScreenType {
+  const factory ScreenTypeSignUp() = _$ScreenTypeSignUp;
 }
