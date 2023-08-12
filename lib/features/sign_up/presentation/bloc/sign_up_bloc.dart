@@ -69,19 +69,15 @@ extension EventHandle on SignUpBloc {
     SignUpNextPageEvent event,
     Emitter<SignUpState> emitter,
   ) async {
-    UserInfoManager.ins.email = emailController.value;
     await showDialog<bool>(
       context: navigator.current.context,
       barrierDismissible: false,
       builder: (BuildContext context) {
-        return Container(
-          padding: EdgeInsets.symmetric(horizontal: 400.scaled),
-          child: NotificationDialog(
-            title: StringManager.titleSignUp,
-            description: StringManager.signUpSuccessfully,
-            onPressButtonSubmit: () {},
-            buttonTitleSubmit: StringManager.ok,
-          ),
+        return NotificationDialog(
+          title: StringManager.titleSignUp,
+          description: StringManager.signUpSuccessfully,
+          onPressButtonSubmit: () {},
+          buttonTitleSubmit: StringManager.ok,
         );
       },
     );
