@@ -1,4 +1,4 @@
 export './auth_services.dart';
-export './share_preference/share_preference_service.dart';
+export './database/database_service.dart';
 
 class AppServices {}

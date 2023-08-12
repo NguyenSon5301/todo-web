@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../common.dart';
-import '../components.dart';
 
 class PasswordStrengthBarWidget extends StatelessWidget {
   final int level;

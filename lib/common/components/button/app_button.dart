@@ -36,9 +36,9 @@ class AppButton extends StatelessWidget {
             const EdgeInsets.symmetric(vertical: 14, horizontal: 15).scaled,
         margin: margin,
         decoration: BoxDecoration(
-          color: disable ? AppColors.purple.withOpacity(.5) : null,
+          color: disable ? AppColors.blue.withOpacity(.5) : null,
           borderRadius: BorderRadius.circular(8.scaled),
-          gradient: disable ? null : AppColors.purpleGradient,
+          gradient: disable ? null : AppColors.blueGradient,
         ),
         alignment: Alignment.center,
         child: title,

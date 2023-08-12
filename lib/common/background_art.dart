@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'colors/app_color.dart';
+
 class Background extends StatelessWidget {
   final Widget child;
   const Background({
@@ -17,6 +19,7 @@ class Background extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.white,
       resizeToAvoidBottomInset: false,
       body: SizedBox(
         width: double.infinity,
