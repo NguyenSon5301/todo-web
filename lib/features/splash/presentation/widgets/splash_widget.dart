@@ -67,12 +67,28 @@ class _SplashWidgetState extends State<SplashWidget> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            // Lottie.asset(LottiePath.welcome),
                             AppText(
-                              'son pro',
+                              StringManager.appName,
                               AppTextStyles.title32Bold.copyWith(
-                                fontSize: 35,
+                                fontSize: 40,
                                 fontWeight: FontWeight.w600,
+                                color: AppColors.blueLight,
+                              ),
+                            ),
+                            AppText(
+                              StringManager.by,
+                              AppTextStyles.title18Bold.copyWith(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w600,
+                                color: AppColors.lightGray,
+                              ),
+                            ),
+                            AppText(
+                              StringManager.purpose,
+                              AppTextStyles.title18Bold.copyWith(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w600,
+                                color: AppColors.lightGray,
                               ),
                             ),
                           ],
