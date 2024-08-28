@@ -20,9 +20,9 @@ void showErrorDialog({
   }
   if (AppNavigator.getKey(const NavigationType.root()).currentContext != null) {
     final context =
-        AppNavigator.getKey(const NavigationType.root()).currentContext!;
+        AppNavigator.getKey(const NavigationType.root()).currentContext;
     showDialog(
-      context: context,
+      context: context!,
       barrierDismissible: barrierDismissible,
       useRootNavigator: true,
       builder: (context) {

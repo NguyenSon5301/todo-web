@@ -192,7 +192,7 @@ class _AddTodoInfoDialogState extends State<AddTodoInfoDialog> {
               ),
             ],
           ),
-        )
+        ),
       ],
     );
   }

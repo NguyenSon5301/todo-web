@@ -202,7 +202,7 @@ class _ChangeTodoInfoDialogState extends State<ChangeTodoInfoDialog> {
               ),
             ],
           ),
-        )
+        ),
       ],
     );
   }

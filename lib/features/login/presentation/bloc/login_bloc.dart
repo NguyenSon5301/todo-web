@@ -55,7 +55,7 @@ extension EventHandle on LoginBloc {
     Emitter<LoginState> emitter,
   ) async {
     final submitLogin = await submitDataUsecase.submitLogin(
-        email: emailController.value, password: passwordController.value);
+        email: emailController.value, password: passwordController.value,);
     submitLogin.fold((l) => emitter(state.copyWith(exception: l)), (r) {
       add(const LoginEvent.nextPage());
     });
@@ -92,7 +92,7 @@ extension EventHandle on LoginBloc {
     Emitter<LoginState> emitter,
   ) async {
     emitter(state.copyWith(
-        emailException: null, passwordException: null, exception: null));
+        emailException: null, passwordException: null, exception: null,),);
     if (emailController.value.isNotEmpty) {
       final checkMailUsecase = checkEmailUseCase.checkEmail(
         email: emailController.value,

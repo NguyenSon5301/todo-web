@@ -27,8 +27,8 @@ dependencies:
 
   #common
   page_transition: ^2.0.9
-  rxdart: ^0.27.7
-  connectivity_plus: ^4.0.2
+  rxdart: ^0.28.0
+  connectivity_plus: ^6.0.5
   firebase_core: ^2.15.0
   firebase_messaging: ^14.6.5
   firebase_auth: ^4.7.2
@@ -36,24 +36,24 @@ dependencies:
   http: ^1.1.0
   dartz: ^0.10.1
   another_flushbar: ^1.12.30
-  easy_sidemenu: ^0.5.0
-  grouped_list: ^5.1.2
+  easy_sidemenu: ^0.6.0
+  grouped_list: ^6.0.0
   cloud_firestore: ^4.8.4
-  intl: ^0.18.1
+  intl: ^0.19.0
   flutter_slidable: ^3.0.0
-  uuid: ^3.0.7
+  uuid: ^4.4.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
 
   #Freezed
   freezed: ^2.4.1
   build_runner: ^2.4.6
   json_serializable: ^6.7.1
+  build_web_compilers: ^4.0.4
 
 flutter:
 

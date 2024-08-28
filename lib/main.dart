@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -23,6 +25,10 @@ void main() async {
       measurementId: 'G-HK94577BHS',
     ),
   );
+  // AppScale.instance.init(
+  //   // ignore: deprecated_member_use
+  //   screenSize: window.physicalSize / window.devicePixelRatio,
+  // );
   runApp(const MyApp());
 }
 

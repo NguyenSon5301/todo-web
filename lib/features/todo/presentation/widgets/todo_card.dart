@@ -38,7 +38,7 @@ class TodoCardWidget extends StatelessWidget {
             onPressed: onPressedDelete,
             icon: Icons.delete,
             backgroundColor: AppColors.red.withOpacity(0.5),
-          )
+          ),
         ],
       ),
       child: GestureDetector(
@@ -50,7 +50,7 @@ class TodoCardWidget extends StatelessWidget {
               return NotificationDialog(
                 title: title,
                 description: description,
-                iconWidget: const Icon(Icons.task_alt),
+                iconWidget: const Icon(Icons.work),
                 onPressButtonSubmit: () {},
                 buttonTitleSubmit: StringManager.ok,
               );

@@ -15,7 +15,6 @@ class PasswordStrengthBarWidget extends StatelessWidget {
     var text = 'Very Weak';
     var color = AppColors.grey.scale5;
     var barWidth = .0;
-
     if (tempLv < 0) {
       tempLv = 0;
     } else if (tempLv > 4) {

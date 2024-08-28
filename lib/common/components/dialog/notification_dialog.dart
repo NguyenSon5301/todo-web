@@ -63,7 +63,7 @@ class _NotificationDialogState extends State<NotificationDialog> {
             children: [
               if (widget.iconWidget != null) ...[
                 widget.iconWidget!,
-                SizedBox(height: 5.scaled)
+                SizedBox(height: 5.scaled),
               ],
               if (widget.title != null)
                 Padding(

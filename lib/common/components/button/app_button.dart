@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../colors/app_color.dart';
-import '../../scale/scale.dart';
+import '../../common.dart';
 
 class AppButton extends StatelessWidget {
   final VoidCallback? onTap;

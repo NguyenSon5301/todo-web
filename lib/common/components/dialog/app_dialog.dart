@@ -49,7 +49,7 @@ class AppDialog extends StatelessWidget {
             children: [
               if (iconWidget != null) ...[
                 iconWidget!,
-                SizedBox(height: 5.scaled)
+                SizedBox(height: 5.scaled),
               ],
               if (title != null)
                 Padding(
@@ -85,8 +85,8 @@ class AppDialog extends StatelessWidget {
                     onTap: onPressButton,
                     isShort: shortButton,
                   ),
-                )
-              ]
+                ),
+              ],
             ],
           ),
         ),

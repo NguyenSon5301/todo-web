@@ -114,13 +114,13 @@ class _TodoState extends State<TodoWidget> {
                                       AppTextStyles.body16Bold.copyWith(
                                         color: AppColors.blueLight,
                                       ),
-                                    )
-                                  ]
+                                    ),
+                                  ],
                                 ],
                               );
                             },
                             itemBuilder: (c, element) {
-                              bool value = element['done'];
+                              final bool value = element['done'];
                               return TodoCardWidget(
                                 idTodo: element['id'],
                                 title: element['title'],

@@ -33,7 +33,8 @@ class AppNetworkBloc extends Bloc<AppNetworkEvent, AppNetworkState> {
     AppNetworkInitEvent event,
     Emitter<AppNetworkState> emitter,
   ) async {
-    add(AppNetworkEvent.changeStatus(await Connectivity().checkConnectivity()));
+    add(AppNetworkEvent.changeStatus(
+        (await Connectivity().checkConnectivity()) as ConnectivityResult));
     _subscription();
   }
 
@@ -41,7 +42,8 @@ class AppNetworkBloc extends Bloc<AppNetworkEvent, AppNetworkState> {
     AppNetworkCheckNetworkEvent event,
     Emitter<AppNetworkState> emitter,
   ) async {
-    add(AppNetworkEvent.changeStatus(await Connectivity().checkConnectivity()));
+    add(AppNetworkEvent.changeStatus(
+        (await Connectivity().checkConnectivity()) as ConnectivityResult));
   }
 
   Future<void> _onChangeStatus(
@@ -58,7 +60,7 @@ class AppNetworkBloc extends Bloc<AppNetworkEvent, AppNetworkState> {
 
   void _subscription() {
     _networkListener = Connectivity().onConnectivityChanged.listen((status) {
-      add(AppNetworkEvent.changeStatus(status));
-    });
+      add(AppNetworkEvent.changeStatus(status as ConnectivityResult));
+    }) as StreamSubscription<ConnectivityResult>;
   }
 }

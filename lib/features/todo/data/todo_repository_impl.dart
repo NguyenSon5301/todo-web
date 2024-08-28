@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:uuid/uuid.dart';
 
 import '../../../common/singleton/user/user_singleton.dart';
 import '../domain/repository/todo_repository_interface.dart';
-import 'package:uuid/uuid.dart';
 
 class TodoRepositoryImpl implements ITodoRepository {
   @override
   Future<bool> updateInfoTodoDone(
-      String idTodo, String field, bool data) async {
+      String idTodo, String field, bool data,) async {
     final documentReference = FirebaseFirestore.instance
         .collection('Users')
         .doc(UserInfoManager.ins.email)
@@ -53,7 +53,7 @@ class TodoRepositoryImpl implements ITodoRepository {
     final add = <String, dynamic>{
       'title': title,
       'description': description,
-      'time': Timestamp.fromDate(time)
+      'time': Timestamp.fromDate(time),
     };
 
     return documentReference.update(add).then((value) async {
